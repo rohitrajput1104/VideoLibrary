@@ -1,0 +1,87 @@
+.link-tag{
+    text-decoration: none;
+}
+
+.navbar-container{
+    height: 60px;
+    background-color: var(--nav-bg);
+    width:100%;
+    position: sticky;
+    top:0;
+    z-index: 8;
+    
+}
+.navbar-wrapper{
+    padding:0.8rem 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar-left{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:0 -15px;
+    
+}
+.navbar-left .nav-item i{
+    margin-left: 20px;
+}
+.brand-name{
+    font-size: 2rem;
+    font-weight: bold;
+    color:var(--secondary-color);
+    margin-left: 3rem;
+    
+    
+    
+}
+
+
+.navbar-right{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    margin:0 -5px;
+    
+    
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 5px;
+    
+}
+.nav-item span{
+    color:var(--secondary-color);
+}
+
+.login-btn{
+    font-size: 14px;
+    cursor:pointer;
+    margin-left: 20px;
+    border:none;
+    padding:10px;
+  
+}
+.logout-icon{
+    all:unset;
+}
+
+
+.nav-item button{
+    border:none;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:700px){
+   
+    .navbar-container{
+        width:100%;
+        height:70px;
+    }
+    
+} 

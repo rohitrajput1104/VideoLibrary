@@ -1,0 +1,40 @@
+.filters-container{
+    margin-left: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding:1.5rem;
+  
+}
+.category-btn{
+    border:none;
+    background-color: var(--gray-color);
+    border-radius: 15px;
+    padding:10px;
+    cursor:pointer;
+    margin-right: 1rem;
+    
+
+}
+.category-btn:hover{
+    background-color: var(--secondary-bg-color);
+    color:white;
+    font-weight: bold;
+
+}
+
+.sort-filter{
+    border:none;
+    padding:0.5rem;
+    border-radius: 12px;
+    background-color: var(--gray-color);
+    
+}
+
+@media only screen and (max-width:750px){
+    .filters-container{
+        padding:0rem;
+        margin-left: 5.7rem;
+    }
+    
+
+}

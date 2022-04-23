@@ -5,17 +5,140 @@
 
 export const videos = [
   {
-    _id: "Wo5dMEP_BbI",
-    title: "Awesome Video about Coding",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-    creator: "Soham Shah",
-  },
-  {
-    _id: "F_Riqjdh2oM",
-    title: "Neural Networks from Scratch - P.1 Intro and Neuron Code",
-    creator: "Sentdex",
-    description:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.",
-  },
+    id:"inpok4MKVLM",
+title:"Peaceful Mind Medidation",
+creator:"GoodFul",
+views:'14646466',
+category:"Yoga",
+description:"In just 5 minutes you can reset your day in a positive way Special thanks to John Davisi for lending us his incredibly soothing voice. ",
+uploaded:"Sep 4, 2019 10:00:00 AM",
+creatorProfile:"AKedOLQ-dffKGPYK6pcttjIHITxxC5iHeAoF1ioZ9fNx"
+
+},{
+
+   id:"3GoYsYxtNC8",
+title:"Beginners CoolDown Workout",
+creator:"LD FITNESS",
+creatorProfile:"AKedOLS03q8486_mwUH9c3BK6B-sjpQSYKzwG5w8OJLl",
+description:"3 MINUTE COOLDOWN | DO THIS AFTER YOU WORKOUT",
+views:"42,717",
+category:"Exercise",
+uploaded:"Aug 8,2019 12:00:00 AM",
+
+
+
+},
+{
+ id:"nsLBIa6fBQ4",
+title:"Pilates Workout For Beginners ",
+creator:"Well+Good",
+creatorProfile:"AKedOLQQ1XG-d0rizN6G3n3i6SUl7HCRap7mwvP-exNQ8g",
+description:"15 Minute Lower Abs Pilates Workout with @Pilates with Go Chlo | Good Moves | Well+Good",
+views:'54470  ' ,
+category:"Pilates",
+uploaded:'July 30, 2021 2:00:00 PM ',
+
+},
+{
+id:"pnbFP5GlPKM",
+title:"Indian Raataan Lambiyan Song",
+creator:"Zumba",
+creatorProfile:"AKedOLQJAFPBAcj69frnqkrYvC8vp-mQBuge4lDuk5-qtQ",
+description:"Raataan Lambiyan | Indian Contemporary | Amit Patel | Shershaah",
+views:'17234' ,
+category:"Zumba",
+uploaded:'Jan 7, 2021  11:00:00 AM'
+
+},
+{
+id:"ez3GgRqhNvA",
+title:"Morning Guided Meditation ",
+creator:"Great Meditation",
+creatorProfile:"AKedOLQclDXT1ttQVJfUmpfSpdDShlrIP10u4bCAXGWKQA",
+description:"This 10 minute guided meditation is an effective way to eliminate overthinking by clearing your mind, allowing yourself to relax and get settled into the moment.",
+views:"1674970 ",
+category:"Yoga",
+uploaded:"Aug 6,2020 02:00:00 PM"
+
+
+},
+{
+id:"Hfq3YXGVY4U",
+title:"Morning Warm Up Cardio",
+description:"Cannon Beach HIIT Cardio Workout - Fast High Intensity Interval Training Cardio Routine",
+creator:"Fitness Blender",
+creatorProfile:"AKedOLTcgheBgy0ha-Q8blbNHbnuYuTiwvmmi4W5upFzaek",
+views:'143990' ,
+category:"Exercise",
+uploaded:"Feb 22 2013 09:00:00 AM"
+
+},
+
+{
+id:"2Ewcvr4YSF4",
+title:" What are Pilates Exercises?",
+creator:"PhysioCare Tv",
+description:"Pilates is a full-body system of sequenced exercises performed either on a mat or on custom designed equipment",
+creatorProfile:"AKedOLSqQxBGp2Qdu5z_3fNSrCusEGTI5RwoO064Ms4hZg",
+views:'782983' ,
+category:"Pilates",
+uploaded:'Apr 19, 2015 11:30:00 AM'
+
+},{
+id:"OXbmCCUIaWg",
+title:"Short Zumba Dance Workout",
+creator:"oneHowTo",
+creatorProfile:"AKedOLSs_h_xq8-d2a3E01IrFu2mqq_OHzZZVNm7QeP5tg",
+description:"Short Zumba Dance Workout for Beginners This Zumba workout is a great way to dance yourself fit",
+views:'580791',
+category:"Zumba",
+uploaded:'Jun 8, 2018 04:00:00 PM',
+
+},
+{
+id:"uH2N2gmjhl0",
+title:"Gentle Yoga For Beginners",
+creator:"Yoga With Christina",
+creatorProfile:"AKedOLSqOlVB72X9E-pquiyi9QbrrKGGxPPqffK1h5fI",
+description:"Hatha Yoga for Beginners | 20 Min Gentle Beginners Yoga Class | ChriskaYoga",
+views:"802042 ",
+category:"Yoga",
+uploaded:"Mar 25,2018 08:00:00 AM",
+
+},
+{
+id:"y1alKvmTy2Q",
+title:"Fitness Tracker Watch",
+description:"Role of Fit Tracker in My Life ⌚️🏃‍♀ l Stay Fit with Ramya",
+creator:"Ramya",
+creatorProfile:"AKedOLQYqrxEZTRDfIg9q9t4XNJvSTBsx2rhW6EWwnvJ",
+views:'27705 ',
+category:"Exercise",
+uploaded:"Jul 21 2021 08:00:00 PM"
+
+},
+{
+id:"RdwQUnA_Bhk",
+title:"Morning Pilates Workout ",
+creator:"Well+Good",
+description:"Decrease Mid-Back Tension with This Pilates Core Workout | Trainer of the Month Club | Well+Good",
+creatorProfile:"AKedOLQQ1XG-d0rizN6G3n3i6SUl7HCRap7mwvP-exNQ8g",
+views:'18068',
+category:"Pilates",
+uploaded:"jan 7 2015 08:00:00 AM"
+
+},
+{
+id:"U-E9DEILDX8",
+title:"Basic Zumba Steps Morning ",
+creator:"Katarzyna ",
+description:"Katarzyna Cyunczyk Zumba - Felices Los 4",
+creatorProfile:"AKedOLROF94gYXCBxicu-AzoRT6gZRdQpm5YMcjlIoP_Og",
+views:'254507',
+category:"Zumba",
+uploaded:"Nov 10 2018 01:30:00 PM"
+
+}
+
+
 ];

@@ -8,20 +8,25 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "Computer Programming",
-    description:
-      "Computer programming is the process of designing and building an executable computer program to accomplish a specific computing",
+    categoryName: "Yoga",
+    description:"Yoga is essentially a spiritual discipline based on an extremely subtle science, which focuses on bringing harmony between mind and body. ",
   },
   {
     _id: uuid(),
-    categoryName: "Frontend Development",
+    categoryName: "Exercise",
     description:
-      "Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application",
+      "Exercise is a subset of physical activity that is planned, structured, and repetitive and has as a final or an intermediate objective the improvement or maintenance of physical fitness.",
   },
   {
     _id: uuid(),
-    categoryName: "Backend Development",
+    categoryName: "Pilates",
     description:
-      "Backend Development is also known as server-side development. It is everything that the users don't see and contains behind-the-scenes activities that occur when performing any action on a website.",
+      "Pilates is a system of repetitive exercises performed on a mat or other equipment to promote strength, stability, and flexibility.",
+  },
+  {
+    _id: uuid(),
+    categoryName: "Zumba",
+    description:
+      "Zumba is a form of aerobic fitness exercise based on Latin American dance rhythms",
   },
 ];

@@ -1,9 +1,14 @@
 
 *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
     --bg-color:#28293D;
     --secondary-color:#11d372;
     --white-color:#FFFFFF;
     --nav-bg:#1e1f36;
+    --gray-color:#f1f1f1;
+    --secondary-bg-color:#69d39e;
 }
 body{
     background-color: var(--bg-color);

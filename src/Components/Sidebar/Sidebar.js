@@ -16,7 +16,7 @@ const Sidebar=()=>{
             <span onClick={()=>setIsSidebar(isSidebar =>!isSidebar)} className="material-icons-outlined">menu</span>
             </div>
 
-            <NavLink to ="/home" className="sidebar-list-items active">
+            <NavLink to ="/" className="sidebar-list-items active">
             <span className="material-icons">home</span>
             <span className="sidebar-list-items span">Home</span>
            </NavLink>

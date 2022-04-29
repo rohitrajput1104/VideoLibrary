@@ -5,7 +5,7 @@
 
 export const videos = [
   {
-    id:"inpok4MKVLM",
+    _id:"inpok4MKVLM",
 title:"Peaceful Mind Medidation",
 creator:"GoodFul",
 views:'14646466',
@@ -16,8 +16,8 @@ creatorProfile:"AKedOLQ-dffKGPYK6pcttjIHITxxC5iHeAoF1ioZ9fNx"
 
 },{
 
-   id:"3GoYsYxtNC8",
-title:"Beginners CoolDown Workout",
+   _id:"3GoYsYxtNC8",
+title:"Beginners CoolDown Work...",
 creator:"LD FITNESS",
 creatorProfile:"AKedOLS03q8486_mwUH9c3BK6B-sjpQSYKzwG5w8OJLl",
 description:"3 MINUTE COOLDOWN | DO THIS AFTER YOU WORKOUT",
@@ -29,8 +29,8 @@ uploaded:"Aug 8,2019 12:00:00 AM",
 
 },
 {
- id:"nsLBIa6fBQ4",
-title:"Pilates Workout For Beginners ",
+ _id:"nsLBIa6fBQ4",
+title:"Pilates Workout For begi... ",
 creator:"Well+Good",
 creatorProfile:"AKedOLQQ1XG-d0rizN6G3n3i6SUl7HCRap7mwvP-exNQ8g",
 description:"15 Minute Lower Abs Pilates Workout with @Pilates with Go Chlo | Good Moves | Well+Good",
@@ -40,8 +40,8 @@ uploaded:'July 30, 2021 2:00:00 PM ',
 
 },
 {
-id:"pnbFP5GlPKM",
-title:"Indian Raataan Lambiyan Song",
+_id:"pnbFP5GlPKM",
+title:"Indian Raataan Lambiyan...",
 creator:"Zumba",
 creatorProfile:"AKedOLQJAFPBAcj69frnqkrYvC8vp-mQBuge4lDuk5-qtQ",
 description:"Raataan Lambiyan | Indian Contemporary | Amit Patel | Shershaah",
@@ -51,7 +51,7 @@ uploaded:'Jan 7, 2021  11:00:00 AM'
 
 },
 {
-id:"ez3GgRqhNvA",
+_id:"ez3GgRqhNvA",
 title:"Morning Guided Meditation ",
 creator:"Great Meditation",
 creatorProfile:"AKedOLQclDXT1ttQVJfUmpfSpdDShlrIP10u4bCAXGWKQA",
@@ -63,7 +63,7 @@ uploaded:"Aug 6,2020 02:00:00 PM"
 
 },
 {
-id:"Hfq3YXGVY4U",
+_id:"Hfq3YXGVY4U",
 title:"Morning Warm Up Cardio",
 description:"Cannon Beach HIIT Cardio Workout - Fast High Intensity Interval Training Cardio Routine",
 creator:"Fitness Blender",
@@ -75,7 +75,7 @@ uploaded:"Feb 22 2013 09:00:00 AM"
 },
 
 {
-id:"2Ewcvr4YSF4",
+_id:"2Ewcvr4YSF4",
 title:" What are Pilates Exercises?",
 creator:"PhysioCare Tv",
 description:"Pilates is a full-body system of sequenced exercises performed either on a mat or on custom designed equipment",
@@ -85,7 +85,7 @@ category:"Pilates",
 uploaded:'Apr 19, 2015 11:30:00 AM'
 
 },{
-id:"OXbmCCUIaWg",
+_id:"OXbmCCUIaWg",
 title:"Short Zumba Dance Workout",
 creator:"oneHowTo",
 creatorProfile:"AKedOLSs_h_xq8-d2a3E01IrFu2mqq_OHzZZVNm7QeP5tg",
@@ -96,7 +96,7 @@ uploaded:'Jun 8, 2018 04:00:00 PM',
 
 },
 {
-id:"uH2N2gmjhl0",
+_id:"uH2N2gmjhl0",
 title:"Gentle Yoga For Beginners",
 creator:"Yoga With Christina",
 creatorProfile:"AKedOLSqOlVB72X9E-pquiyi9QbrrKGGxPPqffK1h5fI",
@@ -107,8 +107,8 @@ uploaded:"Mar 25,2018 08:00:00 AM",
 
 },
 {
-id:"y1alKvmTy2Q",
-title:"Fitness Tracker Watch",
+_id:"y1alKvmTy2Q",
+title:"Fitness Tracker Watch...",
 description:"Role of Fit Tracker in My Life ⌚️🏃‍♀ l Stay Fit with Ramya",
 creator:"Ramya",
 creatorProfile:"AKedOLQYqrxEZTRDfIg9q9t4XNJvSTBsx2rhW6EWwnvJ",
@@ -118,8 +118,8 @@ uploaded:"Jul 21 2021 08:00:00 PM"
 
 },
 {
-id:"RdwQUnA_Bhk",
-title:"Morning Pilates Workout ",
+_id:"RdwQUnA_Bhk",
+title:"Morning Pilates Workout... ",
 creator:"Well+Good",
 description:"Decrease Mid-Back Tension with This Pilates Core Workout | Trainer of the Month Club | Well+Good",
 creatorProfile:"AKedOLQQ1XG-d0rizN6G3n3i6SUl7HCRap7mwvP-exNQ8g",
@@ -129,8 +129,8 @@ uploaded:"jan 7 2015 08:00:00 AM"
 
 },
 {
-id:"U-E9DEILDX8",
-title:"Basic Zumba Steps Morning ",
+_id:"U-E9DEILDX8",
+title:"Basic Zumba Steps for... ",
 creator:"Katarzyna ",
 description:"Katarzyna Cyunczyk Zumba - Felices Los 4",
 creatorProfile:"AKedOLROF94gYXCBxicu-AzoRT6gZRdQpm5YMcjlIoP_Og",

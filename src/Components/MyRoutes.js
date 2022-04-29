@@ -1,5 +1,5 @@
 import {Routes,Route} from 'react-router-dom'
-import {Home,LoginPage,SignUpPage} from '../Pages'
+import {Home,LoginPage,SignUpPage,Playlists,SinglePlaylist} from '../Pages'
 import { PrivateRoute } from './ComponentsExport'
 
 
@@ -12,6 +12,8 @@ const MyRoutes=()=>{
         <Route path="/login" element={<LoginPage />}/>
         <Route path="/signup" element={<SignUpPage />}/>
         <Route path="/" element={<PrivateRoute />}/>
+        <Route path="/playlist" element={<Playlists />}/>
+        <Route path="/playlist/:playlistID" element={<SinglePlaylist />}/>
     </Routes>
     )
 }

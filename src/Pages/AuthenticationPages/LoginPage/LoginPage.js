@@ -11,7 +11,7 @@ const LoginPage=()=>{
     const {setAuth}=useAuth();
     const [signinData,setSignInData]=useState({
         email:"adarshbalika@gmail.com",
-        password:"adarsh@123",
+        password:"adarshBalika123",
     })
     const navigate=useNavigate()
     const [error,setError]=useState('')
@@ -25,12 +25,16 @@ const LoginPage=()=>{
                     token:""
                 })
                 setError("")
+                console.log(signinData)
                 const response=await LoginService(
-                    signinData.email,
-                    signinData.password,
+                   { 
+                       email:signinData.email,
+                    password:signinData.password,
+                   }
                 )
+                console.log(response)
                 if(response.status===200){
-                    
+                        
                         localStorage.setItem("AUTH_TOKEN",response.data.encodedToken),
                         localStorage.setItem("ornate_user",JSON.stringify(response.data.foundUser))
 

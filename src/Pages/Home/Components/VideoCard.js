@@ -1,14 +1,25 @@
 
 import React from 'react'
 import "./VideoCard.css"
+import {useState} from 'react'
+import { isInPlaylists } from '../../../helpers/PlaylistsHelpers'
+import { useAuth } from '../../../Context'
+import { Link,useNavigate } from 'react-router-dom'
+import {PlaylistModal} from './PlaylistModal'
 
 const VideoCard=({video})=>{
+  const [isDropdownOpen,setIsDropdownOpen]=useState(false)
+  const [isPlaylistModalOpen,setIsPlaylistModalOpen]=useState(false)
+  const navigate=useNavigate();
+  const {
+    auth:
+    {isAuthenticated}}=useAuth();
     return(
         <>
         <div className="video-card-container">
     <div className="video-info">
       <div className="video-thumbnail">
-        <img src={`https://i.ytimg.com/vi/${video.id}/hq720.jpg`} alt="thumbnail" ></img>
+        <img src={`https://i.ytimg.com/vi/${video._id}/hq720.jpg`} alt="thumbnail" ></img>
       </div>
       
         <div className="video-flex">
@@ -18,10 +29,23 @@ const VideoCard=({video})=>{
                 <div className="video-title">
                     <span>{video.title}</span>
                 </div>
-                <div className='nav-to-items'>
-                <span className="material-icons">more_vert</span>
+                <div className='dropdown-menu'>
 
+                <button className="material-icons" onClick={()=>setIsDropdownOpen(prev =>!prev)}>more_vert</button>
+                <div className='dropdown-menu-content' style={{display:isDropdownOpen ?"flex":"none" }}>
+                  <button className='dropdown-btn'><span className='material-icons'>thumb_up</span>Liked</button>
+                  <button className='dropdown-btn'><span className='material-icons'>watch_later</span>Added To Watch Later</button>
+                  <button className='dropdown-btn' onClick={()=>{
+                    if(isAuthenticated){
+                      setIsPlaylistModalOpen(true); 
+                      setIsDropdownOpen(false)}
+                      else{
+                    navigate('/login')
+                  }}}><span className='material-icons'>playlist_add</span>add to playlist</button>
+                   </div>
                 </div>
+                 <PlaylistModal  isPlaylistModalOpen={isPlaylistModalOpen} setIsPlaylistModalOpen={setIsPlaylistModalOpen} video={video}/>
+               
         </div>
         <div className="video-creator-name"> 
               <span>{video.creator}</span>

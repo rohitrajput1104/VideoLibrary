@@ -1,2 +1,7 @@
 export {LoginService} from './AuthServices/LoginService'
 export {SignUpService} from './AuthServices/SignUpService'
+export {getAllPlaylists} from './PlaylistServices/getAllPlaylists'
+export {addPlaylists} from './PlaylistServices/addPlaylists'
+export {addPlaylistsVideo} from './PlaylistServices/addPlaylistsVideo'
+export {removePlaylists} from './PlaylistServices/removePlaylists'
+export {removePlaylistsVideo} from './PlaylistServices/removePlaylistsVideo'

@@ -29,9 +29,13 @@ const Sidebar=()=>{
           <span className="sidebar-list-items span">Liked</span>
 
           </NavLink>
-          <NavLink to="/watchlater" className="sidebar-list-items active"> 
+          <NavLink to="/history" className="sidebar-list-items active"> 
           <span className="material-icons">bookmark</span>
           <span className='sidebar-list-items span'>History</span>
+         </NavLink>
+         <NavLink to="/watchlater" className="sidebar-list-items active"> 
+          <span className="material-icons">watch_later</span>
+          <span className='sidebar-list-items span'>WatchLater</span>
          </NavLink>
        
       

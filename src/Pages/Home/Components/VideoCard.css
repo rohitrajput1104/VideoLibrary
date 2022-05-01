@@ -71,7 +71,12 @@
     cursor:pointer;
     border-radius:4px;
     color:black ;
+    background-color: white;
    
+}
+.dropdown-menu-content .dropdown-btn:focus{
+    background-color: var(--secondary-color);
+    color:white;
 }
 
 .dialog-box{

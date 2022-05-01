@@ -1,7 +1,6 @@
 import { removePlaylists } from "../../Services/ServiceExport";
 import { UPDATE_PLAYLISTS } from "../../reducers/constants";
-import { toast } from "react-toastify";
-
+import toast from "react-hot-toast";
 
 export const deletePlaylists=async(token,playlist,playlistDispatch)=>{
     try{

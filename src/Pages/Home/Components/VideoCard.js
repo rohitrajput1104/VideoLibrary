@@ -6,6 +6,8 @@ import { isInPlaylists } from '../../../helpers/PlaylistsHelpers'
 import { useAuth } from '../../../Context'
 import { Link,useNavigate } from 'react-router-dom'
 import {PlaylistModal} from './PlaylistModal'
+import { useLikes } from '../../../Context'
+import { useWatchLater } from '../../../Context'
 
 const VideoCard=({video})=>{
   const [isDropdownOpen,setIsDropdownOpen]=useState(false)
@@ -14,6 +16,10 @@ const VideoCard=({video})=>{
   const {
     auth:
     {isAuthenticated}}=useAuth();
+  const {likedVideos,removeFromLikedVideos,addToLikedVideos}=useLikes()
+  const {watchLaterVideos,removeFromWatchLaterVideos,addToWatchLaterVideos}=useWatchLater()
+  const isInLikedVideos=isInPlaylists(video,likedVideos)
+  const isInWatchLater=isInPlaylists(video,watchLaterVideos)
     return(
         <>
         <div className="video-card-container">
@@ -33,8 +39,42 @@ const VideoCard=({video})=>{
 
                 <button className="material-icons" onClick={()=>setIsDropdownOpen(prev =>!prev)}>more_vert</button>
                 <div className='dropdown-menu-content' style={{display:isDropdownOpen ?"flex":"none" }}>
-                  <button className='dropdown-btn'><span className='material-icons'>thumb_up</span>Liked</button>
-                  <button className='dropdown-btn'><span className='material-icons'>watch_later</span>Added To Watch Later</button>
+                  {isInLikedVideos ?( <button 
+                  className='dropdown-btn'
+                  onClick={()=>{
+                    removeFromLikedVideos(video)
+                    setIsDropdownOpen(false) }} >
+                    <span className='material-icons'>thumb_up</span>
+                    Liked</button>)
+                    :(
+                       <button className='dropdown-btn' 
+                       onClick={()=>{
+                         if(isAuthenticated){
+                         addToLikedVideos(video); 
+                         
+                      }else{
+                        navigate("/login")
+                      }
+                      }}
+                       ><span className='material-icons'>thumb_up</span>Liked</button>
+                    )}
+                 
+                 {isInWatchLater ?(
+                 <button className='dropdown-btn' onClick={()=>removeFromWatchLaterVideos(video)}><span className='material-icons'>watch_later</span>Added To Watch Later</button>
+
+                 ):(
+                  <button className='dropdown-btn' onClick={()=>{
+                    if(isAuthenticated){
+                      addToWatchLaterVideos(video)
+
+                  } else{
+                    navigate("/login")
+                  }
+                }}><span className='material-icons'>watch_later</span>Added To Watch Later</button>
+                 )}
+
+
+                  
                   <button className='dropdown-btn' onClick={()=>{
                     if(isAuthenticated){
                       setIsPlaylistModalOpen(true); 

@@ -1,8 +1,9 @@
 import { addPlaylists } from "../../Services/ServiceExport";
 import { UPDATE_PLAYLISTS } from "../../reducers/constants";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
 
 export const createNewPlaylists = async (token, playlist, playlistDispatch) => {
+  
   try {
     const response = await addPlaylists(token, playlist);
     if (response.status === 201) {

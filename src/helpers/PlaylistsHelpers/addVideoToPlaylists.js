@@ -1,9 +1,9 @@
 import { addPlaylistsVideo } from "../../Services/ServiceExport";
 import {UPDATE_SINGLE_PLAYLISTS} from '../../reducers/constants'
-import { toast } from "react-toastify";
-
+import toast from "react-hot-toast";
 
 export const addVideoToPlaylists=async(token,video,playlist,playlistDispatch)=>{
+    
     try{
         const response=await addPlaylistsVideo(token,video,playlist)
         if(response.status===201){

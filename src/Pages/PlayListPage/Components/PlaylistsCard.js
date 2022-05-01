@@ -45,7 +45,7 @@ const PlaylistCard=({playlist})=>{
                          
                     </div>
                 )}
-               <Link to={`playlists/${playlist._id}`} className="nav-btn">
+               <Link to={`/playlist/${playlist._id}`} className="nav-btn">
                    View Full Playlist 
                </Link>
               

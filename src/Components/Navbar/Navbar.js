@@ -2,10 +2,15 @@ import React,{useState} from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 import { SEARCH_TERM } from '../../reducers/constants'
+import { useAuth } from '../../Context'
+import { LogOutService } from '../../Services/AuthServices/logoutService'
+import toast from 'react-hot-toast'
 
 const Navbar=({filtersState,filterDispatch})=>{
     const [searchInput,setSearchInput]=useState("")
-
+    const {
+        auth:{isAuthenticated,user},setAuth
+    }=useAuth();
         return(
             <>
             <div className='navbar-container'>
@@ -43,11 +48,40 @@ const Navbar=({filtersState,filterDispatch})=>{
                        
                        
                        <div className="nav-item">
-                          
-                               <NavLink to="/login">
-                               <span className="material-icons-outlined">login</span>
-                               </NavLink>
-                           
+                          {!isAuthenticated &&(
+                              <>
+                              <NavLink to ="/login" className="nav-login" >
+                                  <span className='material-icons'>login</span>
+                              </NavLink>
+                              </>
+
+                          )}
+                          {isAuthenticated &&(
+                              <>
+                              <div className="nav-user-and-logout">
+                              <NavLink to="/"  className='link-tag '>
+                                 <div className='user-name'> hi {user.firstName}</div>
+
+                              </NavLink>
+                              <div>
+                              <button className='nav-logout' onClick={()=>{
+                                  LogOutService();
+                                  setAuth({
+                                      isAuthenticated:false,
+                                      user:"",
+                                      token:"",
+                                  })
+                                  toast.success("LoggedOut successfully")
+                                  navigate("/")
+                              }}>
+                                 <span className="material-icons">logout</span>
+
+                              </button>
+                              </div>
+                              </div>
+                              </>
+                          )}
+                              
     
                        </div>
                     

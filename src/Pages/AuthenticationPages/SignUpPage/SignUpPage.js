@@ -6,7 +6,7 @@ import { useTogglePassword } from '../Hooks/TogglePassword'
 import { useForm } from '../Hooks/useForm'
 import { useAuth } from '../../../Context'
 import { SignUpService } from '../../../Services/ServiceExport'
-import { toast } from 'react-toastify'
+import { toast } from 'react-hot-toast'
 
 const SignUpPage=()=>{
     const {togglePassword,passwordToggle,confirmPasswordToggle,confirmTogglePassword}=useTogglePassword();

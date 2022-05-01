@@ -3,7 +3,7 @@ import './LoginPage.css'
 import { Navbar } from "../../../Components/ComponentsExport"
 import { useAuth } from "../../../Context"
 import { LoginService } from '../../../Services/ServiceExport'
-import { toast } from 'react-toastify'
+import { toast } from 'react-hot-toast'
 import { useNavigate ,Link} from 'react-router-dom'
 import { useTogglePassword } from '../Hooks/TogglePassword'
 const LoginPage=()=>{

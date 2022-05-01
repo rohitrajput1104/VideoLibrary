@@ -1,7 +1,6 @@
 import { removePlaylistsVideo } from "../../Services/ServiceExport";
 import { UPDATE_SINGLE_PLAYLISTS } from "../../reducers/constants";
-import { toast } from "react-toastify";
-
+import toast from "react-hot-toast";
 
 export const removeVideoFromPlaylists=async(token,video,playlist,playlistDispatch)=>{
     try{

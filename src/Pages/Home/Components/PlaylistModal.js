@@ -46,7 +46,7 @@ const [playlistName,setPlaylistName]=useState('')
                       createNewPlaylists(token,playlistName,playlistDispatch)
                       setPlaylistName("")
                       setShowCreateNewPlaylist(false)
-
+                    
                   }}>Create</button>
                </div>
              

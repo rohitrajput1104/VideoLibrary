@@ -4,6 +4,7 @@ import { VideoCard } from './Components/VideoCard'
 import { Filters } from './Components/filters'
 import {filterReducer} from '../../reducers/filterReducer'
 import { Navbar } from '../../Components/Navbar/Navbar'
+
 import { getCategoryFilteredVideos,getSortedFilteredVideos,getSearchedFilteredVideos } from '../../utils/filterFunctions'
 const Home=()=>{
     const {videos,loader}=useVideo()
@@ -21,6 +22,7 @@ const Home=()=>{
         <>
         <Navbar filterDispatch={filterDispatch}/>
         <Filters filtersState={filtersState} filterDispatch={filterDispatch}/>
+       
         {loader &&<div className='loader'></div>}
         <div>
             <div className='video-grid-container'>

@@ -17,7 +17,7 @@ const PlaylistCard=({playlist})=>{
             <div className="playlist-info">
                 <img src="./assets/playlist.svg"  className="playlist-img"/>
                 <div className="playlist-flex">
-                    <div className="playlist-title">
+                    <div>
                     <label className="dialog-box-header">{title}</label>
                 
                     <span>{videos.length}videos</span>

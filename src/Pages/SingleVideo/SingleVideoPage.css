@@ -1,0 +1,141 @@
+.video-page-container{
+    margin-left: 17rem;
+    width:100%;
+    max-width: 900px;
+    margin-top:3rem;
+    color:whitesmoke;
+}
+
+.creator-profile .img{
+    width: 50px;
+    height: 50px;
+  border-radius: 40px; 
+  padding:10px;
+}
+.video-src{
+    height:28rem;
+}
+.video-page-title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+.video-page-info{
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.video-page-info .left{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.video-page-info .right{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    gap:10px;
+    
+}
+.video-page-btn{
+    background-color: var(--primary-color);
+    border:none;
+    color:white;
+}
+.video-page-content{
+    margin-top: 0.8rem;
+}
+.video-creator{
+    display: flex;
+    align-items: center;
+}
+@media only screen and  (max-width:1200px){
+    .video-page-container{
+        max-width: 700px;
+        width:100%;
+    }
+}
+
+@media only screen and  (max-width:1050px){
+    .video-page-container{
+        max-width: 600px;
+        width:100%;
+    }
+}
+@media only screen and  (max-width:1000px){
+    .video-page-container{
+        max-width: 650px;
+        width:100%;
+        margin-left: 8rem;
+    }
+}
+
+@media only screen and  (max-width:900px){
+    .video-page-container{
+        max-width: 580px;
+        width:100%;
+        margin-left: 8rem;
+    }
+    .video-src{
+        
+        height:20rem;
+    }
+}
+@media only screen and  (max-width:850px){
+    .video-page-container{
+        max-width: 530px;
+        width:100%;
+        margin-left: 8rem;
+    }
+    .video-src{
+        
+        height:20rem;
+    }
+}
+@media only screen and  (max-width:780px){
+    .video-page-container{
+        max-width: 520px;
+        width:100%;
+        margin-left: 8rem;
+       
+    }
+    .video-src{
+        
+        height:20rem;
+    }
+}
+@media only screen and  (max-width:720px){
+    .video-page-container{
+        max-width: 450px;
+        width:100%;
+        margin-left: 8rem;
+       
+    }
+    .video-src{
+        
+        height:20rem;
+    }
+}
+@media only screen and  (max-width:600px){
+    .video-page-container{
+        max-width: 350px;
+        width:100%;
+        margin-left: 8rem;
+       
+    }
+    .video-src{
+        
+        height:20rem;
+    }
+    .video-uploaded{
+        display:none;
+    }
+    .video-page-info .left p{
+        display: none;
+
+    }
+}

@@ -6,7 +6,10 @@
     margin-top:1rem;
 }
 
-
+.link-tag{
+    text-decoration: none;
+    color:white;
+}
 .video-info{
     display:flex;
     background-color:var(--primary-color);
@@ -189,11 +192,21 @@
   
 
 }
+@media only screen and (max-width:1100px){
+    .video-grid-container{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        margin-left: 6rem;
+        
+    }
+  
+
+}
 @media only screen and (max-width:1000px){
     .video-grid-container{
         display: grid;
         grid-template-columns: 300px 300px;
-       
+       margin-left: 15rem; 
     }
   
 
@@ -201,6 +214,16 @@
 
 
 @media only screen and (max-width:900px){
+    .video-grid-container{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        margin-left: 13rem;
+       
+    }
+  
+
+}
+@media only screen and (max-width:850px){
     .video-grid-container{
         display: grid;
         grid-template-columns: 300px 300px;

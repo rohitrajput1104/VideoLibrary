@@ -5,3 +5,6 @@ export {Playlists} from './PlayListPage/Playlists'
 export {SinglePlaylist} from './SinglePlaylist/SinglePlaylist'
 export {LikesPage} from './LikesPage/LikesPage'
 export {WatchLaterPage} from './WatchLaterPage/WatchLaterPage'
+export {HistoryPage} from './HistoryPage/HistoryPage'
+ 
+export {SingleVideoPage} from './SingleVideo/SingleVideoPage'

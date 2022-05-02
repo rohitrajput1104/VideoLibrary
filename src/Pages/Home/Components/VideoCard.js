@@ -24,17 +24,23 @@ const VideoCard=({video})=>{
         <>
         <div className="video-card-container">
     <div className="video-info">
+    <Link to={`/video/${video._id}`} className="link-tag">
       <div className="video-thumbnail">
         <img src={`https://i.ytimg.com/vi/${video._id}/hq720.jpg`} alt="thumbnail" ></img>
       </div>
+      </Link>
       
         <div className="video-flex">
+            
                 <div className="creator-profile-avatar">
-                    <img src={` https://yt3.ggpht.com/ytc/${video.creatorProfile}`}alt="avatar" class="avatar"/>
-            </div>
+                    <img src={` https://yt3.ggpht.com/ytc/${video.creatorProfile}`}alt="avatar" className="avatar"/>
+               </div>
+            
+            <Link to={`/video/${video._id}`} className="link-tag">
                 <div className="video-title">
                     <span>{video.title}</span>
                 </div>
+              </Link>
                 <div className='dropdown-menu'>
 
                 <button className="material-icons" onClick={()=>setIsDropdownOpen(prev =>!prev)}>more_vert</button>
@@ -87,6 +93,7 @@ const VideoCard=({video})=>{
                  <PlaylistModal  isPlaylistModalOpen={isPlaylistModalOpen} setIsPlaylistModalOpen={setIsPlaylistModalOpen} video={video}/>
                
         </div>
+        <Link className="link-tag" to={`/video/${video._id}`} >
         <div className="video-creator-name"> 
               <span>{video.creator}</span>
             </div>
@@ -97,10 +104,12 @@ const VideoCard=({video})=>{
               </div>
               <div className="video-date">
                 <span> {new Date(video.uploaded).toDateString().slice(4)} </span>
+       
                 
               </div>
               
             </div>
+            </Link>
             
         
      </div>

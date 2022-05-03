@@ -21,3 +21,11 @@ export {removeLikes} from './LikesServices/removeLikes'
 export {getWatchLater} from './WatchLaterServices/getWatchLater'
 export {addWatchLater} from './WatchLaterServices/addWatchLater'
 export {removeWatchLater} from './WatchLaterServices/removeWatchLater'
+
+
+// history
+
+export {addHistory} from './HistoryServices/addHistory'
+export {removeHistory} from './HistoryServices/removeHistory'
+export {getHistory} from './HistoryServices/getHistory'
+export {clearHistory} from './HistoryServices/clearAllHistory'

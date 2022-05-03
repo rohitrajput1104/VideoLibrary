@@ -26,7 +26,7 @@ const WatchLaterProvider=({children})=>{
             catch(err){
                 console.log(err)
             }
-        })
+        })()
     }
         else{
               setWatchLaterVideos([])

@@ -34,7 +34,7 @@ const PlaylistProvider=({children})=>{
                   console.log(err)
             }
            
-        })
+        })()
     }else{
         playlistDispatch({type:UPDATE_PLAYLISTS,payload:[]})
     }

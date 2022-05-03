@@ -34,7 +34,7 @@ const Filters=({filtersState,filterDispatch})=>{
               </div>
               <div className='filter-by-sort'>
                   <select className="sort-filter" name="sortBy" id="sortBy" onChange={(e)=>filterDispatch({type:SORT_BY ,payload:e.target.value})}>
-                  <option classname="sort-option"value="VIEWS">Most Viewed</option>
+                  <option className="sort-option"value="VIEWS">Most Viewed</option>
                   <option  className="sort-option"value="LATEST">Latest</option>
                       <option className='sort-option' value="OLDEST">Oldest</option>
                     

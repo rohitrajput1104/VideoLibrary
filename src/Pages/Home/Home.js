@@ -7,7 +7,7 @@ import { Navbar } from '../../Components/Navbar/Navbar'
 
 import { getCategoryFilteredVideos,getSortedFilteredVideos,getSearchedFilteredVideos } from '../../utils/filterFunctions'
 const Home=()=>{
-    const {videos,loader}=useVideo()
+    const {videos}=useVideo()
 
     const [filtersState,filterDispatch]=useReducer(filterReducer,{
         sortBy:"VIEWS",
@@ -23,7 +23,7 @@ const Home=()=>{
         <Navbar filterDispatch={filterDispatch}/>
         <Filters filtersState={filtersState} filterDispatch={filterDispatch}/>
        
-        {loader &&<div className='loader'></div>}
+        
         <div>
             <div className='video-grid-container'>
         {searchedVideos.map((video)=>(

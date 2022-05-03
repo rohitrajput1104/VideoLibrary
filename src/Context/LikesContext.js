@@ -28,7 +28,7 @@ const LikesProvider=({children})=>{
                 catch(err){
                    console.log(err)
                 }
-            })
+            })()
         }
     },[isAuthenticated,token])
    const addToLikedVideos=async video =>{

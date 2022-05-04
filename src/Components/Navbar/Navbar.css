@@ -116,7 +116,7 @@
 @media only screen and (max-width:800px){
    
     .brand-name{
-       font-size: 1.5rem;
+       font-size: 1rem;
        margin-top: 15px;
     }
     
@@ -131,5 +131,13 @@
         font-size: 1rem;
         margin-top: 0px;
     }
+    .user-name{
+        display:none;
+    }
     
 } 
+@media only screen and (max-width: 426px){
+    .navbar-center{
+        display:none;
+    }
+}

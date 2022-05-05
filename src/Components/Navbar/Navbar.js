@@ -17,7 +17,7 @@ const Navbar=({filtersState,filterDispatch})=>{
                 <div className='navbar-wrapper'>
                     <div className='navbar-left'>
                         <div className="nav-item">
-                        <NavLink to="/home" className="link-tag">
+                        <NavLink to="/" className="link-tag">
                         <div className='brand-name'>Ornate Videos</div>
                     
                         </NavLink>

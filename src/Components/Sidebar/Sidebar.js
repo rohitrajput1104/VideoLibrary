@@ -9,7 +9,7 @@ const Sidebar=()=>{
 
     return(
         <>
-        <div className={isSidebar ? 'sidebar-container hide':"sidebar-container "}>
+        <div className={isSidebar ? 'sidebar-container ':"sidebar-container hide "}>
             <div className='sidebar-list'>
 
             <div className='sidebar-arrow'>
@@ -42,8 +42,13 @@ const Sidebar=()=>{
       
       
        </div>
-    
+     
       </div>
+      {isSidebar &&(
+             <div className='dialog-box-check' style={{display:"block"}} onClick={()=>setIsSidebar(false)}>
+
+             </div>)}
+         
         
         </>
     )

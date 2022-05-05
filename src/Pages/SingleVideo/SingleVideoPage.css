@@ -1,9 +1,10 @@
 .video-page-container{
-    margin-left: 17rem;
+    margin:0 auto;
     width:100%;
-    max-width: 900px;
+    max-width: 832px;
     margin-top:3rem;
     color:whitesmoke;
+    height:max-content;
 }
 
 .creator-profile .img{
@@ -13,7 +14,7 @@
   padding:10px;
 }
 .video-src{
-    height:28rem;
+    height:468px;
 }
 .video-page-title{
     font-size: 1.2rem;
@@ -53,89 +54,30 @@
     display: flex;
     align-items: center;
 }
-@media only screen and  (max-width:1200px){
+@media only screen and (max-width : 1024px){
+    .video-src{
+        height:24rem;
+    }
     .video-page-container{
-        max-width: 700px;
-        width:100%;
+        margin-left: 0rem;
     }
 }
 
-@media only screen and  (max-width:1050px){
-    .video-page-container{
-        max-width: 600px;
-        width:100%;
+@media only screen and (max-width: 768px){
+    .video-src{
+        height:22rem;
     }
-}
-@media only screen and  (max-width:1000px){
     .video-page-container{
-        max-width: 650px;
-        width:100%;
-        margin-left: 8rem;
+        margin-left: 0rem;
     }
 }
 
-@media only screen and  (max-width:900px){
-    .video-page-container{
-        max-width: 580px;
-        width:100%;
-        margin-left: 8rem;
-    }
+@media only screen and (max-width: 426px){
     .video-src{
-        
-        height:20rem;
+         height:20rem;
     }
-}
-@media only screen and  (max-width:850px){
     .video-page-container{
-        max-width: 530px;
-        width:100%;
-        margin-left: 8rem;
+        margin-left: 0em;
     }
-    .video-src{
-        
-        height:20rem;
-    }
-}
-@media only screen and  (max-width:780px){
-    .video-page-container{
-        max-width: 520px;
-        width:100%;
-        margin-left: 8rem;
-       
-    }
-    .video-src{
-        
-        height:20rem;
-    }
-}
-@media only screen and  (max-width:720px){
-    .video-page-container{
-        max-width: 450px;
-        width:100%;
-        margin-left: 8rem;
-       
-    }
-    .video-src{
-        
-        height:20rem;
-    }
-}
-@media only screen and  (max-width:600px){
-    .video-page-container{
-        max-width: 350px;
-        width:100%;
-        margin-left: 8rem;
-       
-    }
-    .video-src{
-        
-        height:20rem;
-    }
-    .video-uploaded{
-        display:none;
-    }
-    .video-page-info .left p{
-        display: none;
-
-    }
+    
 }

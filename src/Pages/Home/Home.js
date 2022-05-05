@@ -24,7 +24,7 @@ const Home=()=>{
         <Filters filtersState={filtersState} filterDispatch={filterDispatch}/>
        
         
-        <div>
+        <div className='explore-page'>
             <div className='video-grid-container'>
         {searchedVideos.map((video)=>(
             <VideoCard key={video.id} video={video} />

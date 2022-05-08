@@ -110,10 +110,7 @@
         
        
     }
-    .playlist-info{
-        height:40vh;
-    }
-  
+    
 
 }
 @media only screen and (max-width:750px){
@@ -124,6 +121,15 @@
        justify-content:center;
        
     }
+    
+  
+}
+@media only screen and (max-width:550px){
+   .playlist-info{
+       height:40vh;
+       margin-left: 0px;
+
+   }
     
   
 }

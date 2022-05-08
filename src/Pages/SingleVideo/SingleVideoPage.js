@@ -53,6 +53,7 @@ const SingleVideoPage=()=>{
         <>
         <Navbar />
         <div className='video-page-container'>
+            
             <div  className='video-src'>
                 <ReactPlayer
                  url={`https://www.youtube.com/watch?v=${videoID}`}

@@ -1,5 +1,5 @@
 .filters-container{
-    margin-left: 15rem;
+    
     display: flex;
     justify-content: space-between;
     padding:1.5rem;
@@ -30,11 +30,3 @@
     
 }
 
-@media only screen and (max-width:750px){
-    .filters-container{
-        padding:0rem;
-        margin-left: 5.7rem;
-    }
-    
-
-}

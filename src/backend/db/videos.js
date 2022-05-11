@@ -7,7 +7,7 @@ export const videos = [
   {
     _id:"4CjkJ7s_pXA",
 title:"Jaby Koay",
-creator:"GoodFul",
+creator:"Jaby and Achara",
 views:'214,6465',
 category:"Reaction",
 description:"When Your Substitute Teacher is Asian - Reaction! | STEVEN HE ",

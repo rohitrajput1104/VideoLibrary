@@ -9,7 +9,7 @@ export const videos = [
 title:"RRR",
 creator:"Patrick H Willems",
 views:'214,6465',
-category:"Reaction",
+category:"Pilates",
 description:"RRR - The Biggest Blockbuster You've Never Heard Of ",
 uploaded:"Sep 4, 2019 10:00:00 AM",
 creatorProfile:"AKedOLQia1wCLYCi5oArhHDnRCpnVKKDe5ZMMHt4c4p2aw",

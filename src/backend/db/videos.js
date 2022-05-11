@@ -5,14 +5,14 @@
 
 export const videos = [
   {
-    _id:"inpok4MKVLM",
-title:"Peaceful Mind Medidation",
+    _id:"4CjkJ7s_pXA",
+title:"Jaby Koay",
 creator:"GoodFul",
-views:'14,6465',
-category:"Yoga",
-description:"In just 5 minutes you can reset your day in a positive way Special thanks to John Davisi for lending us his incredibly soothing voice. ",
+views:'214,6465',
+category:"Reaction",
+description:"When Your Substitute Teacher is Asian - Reaction! | STEVEN HE ",
 uploaded:"Sep 4, 2019 10:00:00 AM",
-creatorProfile:"AKedOLQ-dffKGPYK6pcttjIHITxxC5iHeAoF1ioZ9fNx",
+creatorProfile:"AKedOLQN4KtMYM5MmVYLo8MiYNdbbWB_LovgPrlQknIqFA",
 
 
 },{

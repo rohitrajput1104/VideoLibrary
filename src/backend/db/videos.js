@@ -170,6 +170,27 @@ creatorProfile:"AKedOLTPWx9Lv4AKgeLvAod40hAvK-OyFheggH_L1L_Jww",
 views:'25,4507',
 category:"EDUCATION",
 uploaded:"Mar 20 2022 10:30:00 PM"
+  },
+  {
+    _id:"1AkCPtC0sGM",
+title:"7 Anokhe Gadgets You Didn't Know! ",
+creator:"Tech Burner ",
+description:"Mast Gadgets Hai Bhai, ",
+creatorProfile:"AKedOLSLzBlLalLFEXgvGHr6f9yBm9Y8PrJMXZC_hxTTlQ",
+views:'425,4507',
+category:"TECHNOLOGY",
+uploaded:"Mar 20 2022 10:30:00 PM"
+  },
+  {
+      _id:"LtLJRNBHOKc",
+title:"Online Parent Teacher Meeting | Ashish Chanchlani ",
+creator:"Ashish ",
+description:"Parnet teacher Meeting Spoof, ",
+creatorProfile:"AKedOLTE_sosWegmfiw0z7ronCP7O6PbEL14kOR7mK1Q5A",
+views:'1425,4507',
+category:"Entertainment",
+uploaded:"Apr 1 2022 10:30:00 AM"
   }
-   
+  
+    
    ];
